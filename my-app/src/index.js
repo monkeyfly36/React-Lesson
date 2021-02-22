@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-02-22 16:53:33
+ * @LastEditTime: 2021-02-22 17:45:43
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /React-Lesson/my-app/src/index.js
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -5,9 +13,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
