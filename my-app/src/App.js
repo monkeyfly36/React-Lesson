@@ -10,7 +10,13 @@ import './App.css';
 // Redux使用
 // import ReduxPage from './redux/ReduxPage'
 // React-Router使用
-import RouterPage from './router/RouterPage'
+// import RouterPage from './router/RouterPage'
+// PureComponent使用
+// import PureComponent from './PureComponent/PureComponentPage'
+// LifeCycle使用
+// import LifeCycle from './LifeCycle/LifeCycle'
+// Antd使用
+import Antd from './Antd/Antd'
 
 function App() {
   return (
@@ -19,8 +25,11 @@ function App() {
       <FunctionComponent />
       <SetStateComponent />
       <HomePage />
-      <ReduxPage /> */}
+      <ReduxPage />
       <RouterPage />
+      <PureComponent />
+      <LifeCycle /> */}
+      <Antd />
     </div>
   );
 }
