@@ -11,11 +11,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// 使用react-redux, 注意与直接使用redux区别
+import store from './store/'
+import { Provider } from "react-redux";
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+  <Provider store={store}>
+    <App/>
+  </Provider>,
+  document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
