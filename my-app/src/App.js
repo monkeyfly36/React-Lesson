@@ -16,7 +16,9 @@ import './App.css';
 // LifeCycle使用
 // import LifeCycle from './LifeCycle/LifeCycle'
 // Antd使用
-import Antd from './Antd/Antd'
+// import Antd from './Antd/Antd'
+// Hook使用
+import Hook from './Hook/Hook'
 
 function App() {
   return (
@@ -28,8 +30,9 @@ function App() {
       <ReduxPage />
       <RouterPage />
       <PureComponent />
-      <LifeCycle /> */}
-      <Antd />
+      <LifeCycle />
+      <Antd /> */}
+      <Hook />
     </div>
   );
 }
