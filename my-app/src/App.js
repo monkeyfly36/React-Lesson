@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-02-22 16:53:33
+ * @LastEditTime: 2021-03-03 19:39:09
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /React-Lesson/my-app/src/App.js
+ */
 import logo from './logo.svg';
 import './App.css';
 // class和component组件
@@ -18,7 +26,11 @@ import './App.css';
 // Antd使用
 // import Antd from './Antd/Antd'
 // Hook使用
-import Hook from './Hook/Hook'
+// import Hook from './Hook/Hook'
+// UseMemo使用
+// import UseMemoPage from './Hook/UseMemoPage'
+// UseCallback使用
+import UseCallbackPage from './Hook/UseCallbackPage'
 
 function App() {
   return (
@@ -31,8 +43,10 @@ function App() {
       <RouterPage />
       <PureComponent />
       <LifeCycle />
-      <Antd /> */}
+      <Antd />
       <Hook />
+      <UseMemoPage /> */}
+      <UseCallbackPage />
     </div>
   );
 }

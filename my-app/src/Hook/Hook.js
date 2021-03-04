@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-03-02 16:53:29
+ * @LastEditTime: 2021-03-03 19:11:57
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /React-Lesson/my-app/src/Hook/Hook.js
+ */
 import React, { useState, useEffect } from 'react'
 
 export default function Hook(props) {
@@ -27,6 +35,6 @@ function useClock() {
       setDate(new Date())
     }, 1000)
     return () => clearInterval(timer) // !!!清除effect, 以防⽌内存泄漏
-  })
+  }, [])
   return date
 }

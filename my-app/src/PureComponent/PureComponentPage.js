@@ -1,5 +1,12 @@
+/*
+ * @Author: your name
+ * @Date: 2021-03-02 10:03:40
+ * @LastEditTime: 2021-03-03 19:40:16
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /React-Lesson/my-app/src/PureComponent/PureComponentPage.js
+ */
 import React, { PureComponent } from 'react';
-
 export default class PureComponentPage extends PureComponent {
   constructor(props) {
     super(props)
