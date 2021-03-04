@@ -24,8 +24,8 @@ export default class LifeCyclePage extends Component {
   // 新增API
   static getDerivedStateFromProps(props, state) {
     // getDerivedStateFromProps 会在调⽤ render ⽅法之前调⽤，
-    //并且在初始挂载及后续更新时都会被调⽤。
-    //它应返回⼀个对象来更新 state，如果返回 null 则不更新任何内容。
+    // 并且在初始挂载及后续更新时都会被调⽤。
+    // 它应返回⼀个对象来更新 state，如果返回 null 则不更新任何内容。
     const { count } = state
     console.log("getDerivedStateFromProps", count)
     return count < 5 ? null : { count: 0 }
