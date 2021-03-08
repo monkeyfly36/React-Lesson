@@ -105,7 +105,7 @@ export default function useForm(form) {
   const formRef = React.useRef();
   if (!formRef.current) {
     // 实现复用
-    if (form) { // class/class在Form组件用的
+    if (form) { // class/class在Form组件复用
       formRef.current = form;
     } else { // Func组件初始化用的
       const formStore = new FormStore();
