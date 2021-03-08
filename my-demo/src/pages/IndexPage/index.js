@@ -8,14 +8,12 @@
  */
 import React, { Component } from 'react'
 import styles from './index.module.scss'
-import BottomNav from '../../component/BottomNav';
 
 export default class Index extends Component {
   render() {
     return (
       <div>
         <h3>Index</h3>
-        <BottomNav />
       </div>
     )
   }
