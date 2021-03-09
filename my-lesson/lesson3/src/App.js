@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import HooksPage from "./pages/HooksPage";
+import ReactReduxPage from "./pages/ReactReduxPage";
 import ReactReduxHookPage from "./pages/ReactReduxHookPage";
 
 export default function App(props) {
@@ -6,9 +8,9 @@ export default function App(props) {
   return (
     <div>
       {/* <button onClick={() => setState(state + 1)}>add : {state}</button> */}
-      {/* <HooksPage /> */}
+      <HooksPage />
       {/* <ReactReduxPage /> */}
-      <ReactReduxHookPage />
+      {/* <ReactReduxHookPage /> */}
     </div>
   );
 }

@@ -15,7 +15,7 @@ export default function createStore(reducer, enhancer) {
   // 修改状态
   function dispatch(action) {
     currentState = reducer(currentState, action);
-    // store state已经发生了变化
+    // store state 已经发生了变化
     // next step: 通知组件
     currentListeners.forEach(listener => listener());
   }
