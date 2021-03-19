@@ -6,10 +6,10 @@ import {bindActionCreators, connect} from "../kReactRedux";
 // connect原理 高阶组件（hoc）
 @connect(
   // mapStateToProps 把state放到props上一份
-  // ({count}) => ({count}),
-  state => {
-    return {count: state.count};
-  },
+  ({count}) => ({count}),
+  // state => {
+  //   return {count: state.count};
+  // },
 
   // mapDispatchToProps object|function 把dispatch放到props上一份
   // {

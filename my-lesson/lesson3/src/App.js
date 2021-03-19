@@ -8,9 +8,9 @@ export default function App(props) {
   return (
     <div>
       {/* <button onClick={() => setState(state + 1)}>add : {state}</button> */}
-      <HooksPage />
+      {/* <HooksPage /> */}
       {/* <ReactReduxPage /> */}
-      {/* <ReactReduxHookPage /> */}
+      <ReactReduxHookPage />
     </div>
   );
 }
